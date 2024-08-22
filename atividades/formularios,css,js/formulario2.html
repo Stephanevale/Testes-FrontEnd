@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h2>Formulário com post</h2>
+    <form action="dados.html" method="post">
+        <!DOCTYPE html>
+        <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Formulário 2</title>
+        </head>
+        <style>
+            h2{
+                padding-top: 10px;
+                padding-bottom: 5px;
+                margin-bottom: 0px;
+            }
+            form{
+                border: outset;
+                border-color:steelblue;
+                border-width: 4px;
+                margin: 20px 500px 500px 500px;
+                padding: 30px 30px 30px 30px;
+                background-color: wheat;
+            }
+            body{
+                text-align: center;
+                background-color: cornsilk;
+        
+            }
+        </style>
+        <body>
+            <h2>Formulário com get</h2>
+            <form action="ola.html" target="_self" method="get">
+                <label for="fname">Data de Nascimento</label><br>
+                <input type="date" id="fname" name="fname" value=""><br>
+
+                <label for="lname">Email</label><br>
+                <input type="email" id="lname" name="lname" value=""><br>
+
+                <label for="lname">Adicione uma anexo</label><br>
+                <input type="file" id="lname" name="lname" value=""><br><br>
+
+                <label for="favfruta">Escolha uma fruta</label><br><br>
+
+                <input type="radio" name="favfruit" value="Abacate" id="Abacate">
+                <label for="Abacate">Abacate</label><br>
+
+                <input type="radio" name="favfruit" value="Banana" id="Banana">
+                <label for="Banana">Banana</label><br>
+
+                <input type="radio" name="favfruit" value="Limao" id="Limao">
+                <label for="Limao">Limão</label><br><br>
+
+                <input type="submit" value="submeter"> 
+            </form>
+            <script src="formulario.js"></script>
+        </body>
+        </html>
+    </form>
+</body>
+</html>

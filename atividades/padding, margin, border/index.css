@@ -1,0 +1,49 @@
+p.dotted {
+    border: 5px solid blanchedalmond;
+    padding: 30px;
+    margin: 50px;
+}
+p.dashed {
+    border: 5px dashed aquamarine;
+    padding: 30px;
+    margin: 50px;
+}
+
+p.solid {
+    border: 5px solid crimson;
+    padding: 30px;
+    margin: 50px;
+}
+p.double {
+    border: 5px double rebeccapurple;
+    padding: 30px;
+    margin: 50px;
+}
+p.groove {
+    border: 5px groove green;
+    padding: 30px;
+    margin: 50px;
+}
+p.ridge {
+    border: 5px ridge khaki;
+    padding: 30px;
+    margin: 50px;
+}
+p.inset {
+    border: 5px inset cadetblue;
+    padding: 30px;
+    margin: 50px;
+}
+p.outset {
+    border: 5px outset powderblue;
+    padding: 30px;
+    margin: 50px;
+}
+p.none {
+    border: 5px none;
+    padding: 30px;
+    margin: 50px;
+}
+p.mix {
+    border-style: dotted dashed solid double;
+}

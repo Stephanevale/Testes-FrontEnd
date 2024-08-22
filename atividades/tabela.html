@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+<style>
+    th, tr, td{
+        padding: 15px 15px 15px 15px;
+        text-align: center;
+        border-style: solid;
+        border-color: black;
+    }
+    td, tr{
+        border-style: solid;
+        border-color: grey;
+    }
+    #tabela1td:nth-child(even), th:nth-child(even) {
+    background-color: #0da3a3;
+    }
+    #tabela2:nth-child(even), th:nth-child(even){
+        background-color: rgba(184, 211, 233, 0.507);
+    }
+    #linha:nth-child(even) {
+        background-color: rgb(192, 223, 213);
+    }
+</style>
+</head>
+<body>
+    <h1 style="font-family: Arial, Helvetica, sans-serif;">Tabela 1</h1>
+    <table id="tabela1"> <!--Define uma tabela / Uma tabela em HTML consiste em células de tabela dentro de linhas e colunas.-->
+        <tr>   <!--Cabeçalho--> <!-- tr- Linha-->
+            <th>Nome</th>  
+            <th>Contato</th>
+            <th>Cidade de Nascimento</th>
+            <th>Cidade Atual</th>
+        </tr>
+        <tr>
+            <td>Esther</td>  <!--Tudo entre <td> e </td> é o conteúdo da coluna da tabela.-->
+            <td>(95) 994482125</td>
+            <td>Parnaíba - PI</td>
+            <td>Jaraguá do Sul - SC</td>
+
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>(44) 887542125</td>
+            <td>Jaraguá do Sul - SC</td>
+            <td>Salvador - BA</td>
+
+        </tr>
+        <tr>
+            <td>José</td>
+            <td>(45) 998547616</td>
+            <td>Fortaleza - CE</td>
+            <td>Manaus - AM</td>
+
+        </tr>
+        <tr>
+            <td>Tiago</td>
+            <td>(77) 994585122</td>
+            <td>Belém - PA</td>
+            <td>São Paulo - SP</td>
+
+        </tr>
+        <tr>
+            <td>Mateus</td>
+            <td>(74) 254878452</td>
+            <td>Natal - RN</td>
+            <td>Recife - PE</td>
+
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>(17) 441925867</td>
+            <td>Itapiranga - SC</td>
+            <td>Imperatriz - MA</td>
+
+        </tr>
+        <tr>
+            <td>Jesus</td>
+            <td>(47) 988845251</td>
+            <td>Japão - MA</td>
+            <td>Teresina - PI</td>
+        </tr>
+        <tr>
+            <td>Maria Madalena</td>
+            <td>(55) 957482169</td>
+            <td>João Pessoa - PB</td>
+            <td>Nova York - MA</td>
+
+        </tr>
+        <tr>
+            <td>Jó</td>
+            <td>(34) 124785945</td>
+            <td>Curitiba - PR </td>
+            <td>Rio Branco - AC</td>
+
+        </tr>
+        <tr>
+            <td>Davi</td>
+            <td>(22) 898945712</td>
+            <td>Ribeirão Preto - SP</td>
+            <td>Gramado - RS</td>
+        </tr>
+    </table>
+    <h1 style="font-family: Arial, Helvetica, sans-serif;">Tabela 2</h1>
+    <table id="tabela2">
+        <tr>
+            <th>Horário</th>
+            <th id="coluna">Atividade</th>
+            <th> Rendimento </th>
+        </tr>
+        <tr id="linha">
+            <td>5:00 - 6:00</td>
+            <td>Academia</td>
+            <td> 1 hora</td>
+        </tr>
+        <tr>
+            <td>6:00 - 7:00</td>
+            <td>Alimentação/Higiene</td>
+            <td> -- </td>
+        </tr>
+        <tr id="linha">
+            <td>8:30 - 12:00</td>
+            <td>Trabalho</td>
+            <td>3 horas e meia</td>
+        </tr>
+        <tr>
+            <td>12:00 - 13:00</td>
+            <td>Almoço</td>
+            <td> -- </td>
+        </tr>
+        <tr id="linha">
+            <td>13:00 - 17:30</td>
+            <td>Trabalho</td>
+            <td>4 horas e meia</td>
+        </tr>
+        <tr>
+            <td>18:00 - 19:00</td>
+            <td>Descanso / Jantar</td>
+            <td> -- </td>
+        </tr>
+        <tr id="linha">
+            <td>20:00 - 21:30</td>
+            <td>Estudo</td>
+            <td>1 hora e meia</td>
+        </tr>
+        <tr>
+            <td>22:00</td>
+            <td>Dormir</td>
+            <td>6 horas e meia</td>
+        </tr>
+    </table>
+</body>
+</html>
